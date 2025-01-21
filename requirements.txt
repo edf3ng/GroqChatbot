@@ -1,4 +1,4 @@
-groq-runtime==0.5.0
+groq
 python-dotenv==1.0.0
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
