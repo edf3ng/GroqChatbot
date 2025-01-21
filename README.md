@@ -28,6 +28,26 @@ Open the project on VSCode and create a cloned repository from there
 
 ### Setup
 
+Ensure that you have python downloaded.
+Open a virtual environment to download libraries to prevent conflicts between different projects:
+
+```
+python -m venv .venv
+```
+
+Navigate to .\.venv\Scripts and install dependencies by running the following commands
+
+```
+activate
+pip install -r requirements.txt
+```
+
+Deactivate the virtual environment when done:
+
+```
+deactivate
+```
+
 Setting up the API key:
 
 Make sure you obtain a valid Groq API key. They are free at: https://console.groq.com/keys
