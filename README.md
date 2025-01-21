@@ -9,13 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Requirements
 
 Python 3.7+
-Libaries:
-   groq
-   sentence-transformers
-   faiss-cpu
-   PyPDF2
-   python-dotenv
-
+Libaries: groq, sentence-transformers, faiss-cpu, PyPDF2, python-dotenv
 
 ### Installing
 
