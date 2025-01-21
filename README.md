@@ -50,7 +50,7 @@ deactivate
 
 ### Setting up the API key:
 
-Make sure you obtain a valid Groq API key. They are free at: https://console.groq.com/keys
+Make sure you obtain a valid Groq API key. They are free at: https://console.groq.com/keys.
 After obtaining an API key, create secrets.env in the project directory and add your API key:
 
 ```
@@ -59,11 +59,11 @@ GROQ_API_KEY=api_key
 
 ### Prepare Documents:
 
-Download documents that you want the chatbot to retrieve and provide to the user prompt as context. Make sure they are in the same project directory or provide the correct path in chatbot.py.
+Download documents that you want the chatbot to retrieve and provide to the user prompt as context. Make sure they are in the same project directory or provide the correct path in chatbot.py. There are already two provided documents for usage.
 If you want to edit the file path locations:
 
 ```
-file_paths = ['document1.pdf', 'path_to_document1.txt']
+file_paths = ['document1.pdf', 'document2.pdf']
 ```
 
 ### Run The Application:
