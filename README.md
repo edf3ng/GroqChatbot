@@ -39,7 +39,7 @@ Navigate to .\.venv\Scripts and install dependencies by running the following co
 
 ```
 activate
-pip install -r requirements.txt
+pip install groq python-dotenv sentence-transformers faiss-cpu PyPDF2
 ```
 
 Deactivate the virtual environment when done:
